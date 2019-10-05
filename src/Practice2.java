@@ -6,6 +6,6 @@ public class Practice2 {
         String inputString=scanner.nextLine();
         System.out.println("Enter an index");
         int index=scanner.nextInt();
+        System.out.println(inputString.substring(index));
     }
-
 }
