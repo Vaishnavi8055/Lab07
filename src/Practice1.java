@@ -9,9 +9,7 @@ public class Practice1 {
         }
         System.out.print("\n");
         for(int j=0;j<length;j++){
-
+            System.out.print("\t"+inputString.charAt(j));
         }
-
     }
-
 }
