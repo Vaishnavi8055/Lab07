@@ -4,6 +4,9 @@ public class Practice1 {
         Scanner scanner =new Scanner(System.in);
         String inputString=scanner.nextLine();
         int length=inputString.length();
+        for(int i=0;i<length;i++){
+            System.out.print("\t"+i);
+        }
 
     }
 
