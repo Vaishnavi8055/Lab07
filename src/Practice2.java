@@ -4,6 +4,7 @@ public class Practice2 {
         Scanner scanner =new Scanner(System.in);
         System.out.println("Enter a String");
         String inputString=scanner.nextLine();
+        System.out.println("Enter an index");
     }
 
 }
