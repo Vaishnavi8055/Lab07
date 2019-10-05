@@ -6,5 +6,8 @@ public class Practice7 {
         String name = scanner.nextLine();
         char character[] = name.toCharArray();
         int length = name.length();
-    }
+        int sum=0;
+
+
+}
 }
