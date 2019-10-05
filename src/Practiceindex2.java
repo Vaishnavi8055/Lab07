@@ -9,6 +9,8 @@ public class Practiceindex2 {
         for(int i=0;i<str.length();i++)
         {
             if(array[i]==ch){
+                System.out.println(i);
+
             }
         }
 
