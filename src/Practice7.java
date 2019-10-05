@@ -7,7 +7,8 @@ public class Practice7 {
         char character[] = name.toCharArray();
         int length = name.length();
         int sum=0;
-
+        for(int i=0;i<length;i++) {
+        }
 
 }
 }
