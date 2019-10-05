@@ -1,17 +1,15 @@
 import java.util.Scanner;
 public class Practice3 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a String");
-        String inputString = scanner.nextLine();
-        char character[] = new char[inputString.length()];
-        for (int i = 0; i < inputString.length(); i++) {
-            if (character[i] == 'a' || character[i] == 'e' || character[i] == 'i' || character[i] == 'o'
-                    || character[i] == 'u') {
-                System.out.print(inputString.replace(character[i],'='));
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        char str[] = name.toCharArray();
+        for (int i = 0; i < name.length(); i++) {
+            if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u') {
+                System.out.println("\t*");
+            } else {
+                System.out.println("\t"+str[i]);
             }
         }
     }
-    }
-
-
+}
